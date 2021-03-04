@@ -9,15 +9,13 @@ Version: 0.1.0
 
 /*police*/
 
-@import url(//db.onlinewebfonts.com/c/c6f5218272f98dd91e0742b9c2bdb0a2?family=Gang+of+Three);
+@font-face {font-family: "Gang of Three"; src: url("//db.onlinewebfonts.com/t/c6f5218272f98dd91e0742b9c2bdb0a2.eot"); src: url("//db.onlinewebfonts.com/t/c6f5218272f98dd91e0742b9c2bdb0a2.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/c6f5218272f98dd91e0742b9c2bdb0a2.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/c6f5218272f98dd91e0742b9c2bdb0a2.woff") format("woff"), url("//db.onlinewebfonts.com/t/c6f5218272f98dd91e0742b9c2bdb0a2.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/c6f5218272f98dd91e0742b9c2bdb0a2.svg#Gang of Three") format("svg"); }
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
 
-.elementor-28837 .elementor-element.elementor-element-c7fef56 .elementor-heading-title{
-    font-family: "gang of three" , sans-serif;
-}
 
 
-.elementor-28900 .elementor-element.elementor-element-90377eb .elementor-heading-title,
+
+.elementor-29798 .elementor-element.elementor-element-36faae6f .elementor-heading-title,
 .elementor-28900 .elementor-element.elementor-element-2791b02 .elementor-heading-title,
 .elementor-28900 .elementor-element.elementor-element-16128ae .elementor-heading-title,
 .elementor-28894 .elementor-element.elementor-element-54e9ad3 .elementor-heading-title,
@@ -26,8 +24,13 @@ Version: 0.1.0
 .elementor-29247 .elementor-element.elementor-element-50eaa4f0 .elementor-heading-title,
 .elementor-29247 .elementor-element.elementor-element-49d187d5 .elementor-heading-title,
 .elementor-28894 .elementor-element.elementor-element-df09aa2 .elementor-heading-title,
-.elementor-28894 .elementor-element.elementor-element-077ea95 .elementor-heading-title{
-    font-family: "gang of three", sans-serif;
+.elementor-28894 .elementor-element.elementor-element-077ea95 .elementor-heading-title,
+.elementor-28892 .elementor-element.elementor-element-8dd09ce .elementor-heading-title,
+.elementor-28837 .elementor-element.elementor-element-c7fef56 .elementor-heading-title,
+.elementor-29769 .elementor-element.elementor-element-16ec3b97 .elementor-heading-title,
+.elementor-29769 .elementor-element.elementor-element-667b68c .elementor-heading-title,
+.elementor-28900 .elementor-element.elementor-element-90377eb .elementor-heading-title{
+  font-family: 'gang of three', sans-serif;
 }
 
 .elementor-28843 .elementor-element.elementor-element-8a9cbdd .menu-item a.hfe-menu-item, .elementor-28843 .elementor-element.elementor-element-8a9cbdd .sub-menu a.hfe-sub-menu-item{
