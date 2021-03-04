@@ -1,0 +1,83 @@
+/*
+Theme Name: nevechild
+Description: nevechild de laurabrg
+Author: laura brager
+Author URI: https://laurabrager.com
+Template: neve
+Version: 0.1.0
+*/
+
+/*police*/
+
+@import url(//db.onlinewebfonts.com/c/c6f5218272f98dd91e0742b9c2bdb0a2?family=Gang+of+Three);
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+.elementor-28837 .elementor-element.elementor-element-c7fef56 .elementor-heading-title{
+    font-family: "gang of three" , sans-serif;
+}
+
+
+.elementor-28900 .elementor-element.elementor-element-90377eb .elementor-heading-title,
+.elementor-28900 .elementor-element.elementor-element-2791b02 .elementor-heading-title,
+.elementor-28900 .elementor-element.elementor-element-16128ae .elementor-heading-title,
+.elementor-28894 .elementor-element.elementor-element-54e9ad3 .elementor-heading-title,
+.elementor-29387 .elementor-element.elementor-element-10e7909 .elementor-heading-title,
+.elementor-28892 .elementor-element.elementor-element-e23a76b .elementor-heading-title,
+.elementor-29247 .elementor-element.elementor-element-50eaa4f0 .elementor-heading-title,
+.elementor-29247 .elementor-element.elementor-element-49d187d5 .elementor-heading-title,
+.elementor-28894 .elementor-element.elementor-element-df09aa2 .elementor-heading-title,
+.elementor-28894 .elementor-element.elementor-element-077ea95 .elementor-heading-title{
+    font-family: "gang of three", sans-serif;
+}
+
+.elementor-28843 .elementor-element.elementor-element-8a9cbdd .menu-item a.hfe-menu-item, .elementor-28843 .elementor-element.elementor-element-8a9cbdd .sub-menu a.hfe-sub-menu-item{
+ background-color: #C3829E;
+ padding-right: 40px;
+ padding-left: 40px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+
+}
+label{
+    color: black;
+    font-family: "teko", sans-serif;
+    font-size: 1.5em;
+
+}
+
+@media (max-width: 70em) {
+	label{
+		font-size: 1.2em;
+		
+	}
+}
+
+@media (max-width: 30em) {
+	label{
+		font-size: 1em;
+		
+	}
+}
+
+
+form:not([role="search"]):not(.woocommerce-cart-form):not(.woocommerce-ordering):not(.cart) input:read-write:not(#coupon_code), form textarea, form select{
+    width: 700px;
+}
+
+@media (max-width: 70em) {
+	form:not([role="search"]):not(.woocommerce-cart-form):not(.woocommerce-ordering):not(.cart) input:read-write:not(#coupon_code), form textarea, form select{
+		width:500px;
+		
+	}
+}
+
+@media (max-width: 30em) {
+	form:not([role="search"]):not(.woocommerce-cart-form):not(.woocommerce-ordering):not(.cart) input:read-write:not(#coupon_code), form textarea, form select{
+		width:300px;
+		
+	}
+}
+
+input.wpcf7-form-control.wpcf7-submit{
+    background-color: #562135;
+}
